@@ -1,9 +1,9 @@
 
 h1{
     font-family: "Manrope", sans-serif;
-    font-size: 40px;
+    font-size: 48px;
     font-weight:900;
-    padding-left: 90px;
+    padding-left: 180px;
 }
 
 a{
@@ -23,7 +23,7 @@ a{
 nav li {
     display: inline-block;
     margin-right: 70px;
-    padding-top: 38px;
+    padding-top: 42px;
     font-size: 18px;
     font-family: "Manrope", sans-serif;
     font-weight: 600;   
@@ -31,40 +31,42 @@ nav li {
 
 .sectionflexcontainer{ /* China*/
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     text-align: center;
-    padding-top: 90px;
-    padding-left: 180px;
-    padding-bottom: 180px;
+    padding-top: 90px; padding-bottom: 45px;
+    padding-inline: 180px;
 }
 
-.herocallout{
-    padding-inline: 10px;
+.hiImMelissa {
+    text-align: center;
+    padding-inline: 180px;
+    padding-bottom: 45px; 
+    padding-inline: 90px
 }
-
 
 .myskillsflexcontainer{
-    display: flex;
+    display:flex;
     flex-direction: row;
+    padding-top: 135px;
     padding-left: 90px;
-    padding-top: 140px;
-    padding-bottom: 140px;
-
 }
 
+div img{
+    padding-left: 135px;
+}
 .myworkflexcontainer{
     display: flex;
     flex-direction: row;
+    scroll-padding-inline: 90px;
     padding-left: 90px;
-    padding-top: 140px;
-    padding-bottom: 140px;
-
 }
 
 h2{
-    font-size: 82px;
+    font-size: 90px;
     font-family: "Manrope", sans-serif;
+    font-weight: 900;
     text-align: center;
+    padding-top: 15px;
 }
 
 h5{ 
@@ -73,6 +75,7 @@ h5{
     font-family: "Manrope", sans-serif;
     text-align: left;
     font-weight: 900;
+    padding-left: 135px;
 }
 
 h6{
@@ -80,40 +83,35 @@ h6{
     text-align: left;
     font-family: "Manrope", sans-serif;
     font-weight: 300;
+    padding-left: 135px;
+
 }
 
 img{ /* China */ 
     padding-right: 55px;
-    padding-top: 60px; 
-}
-
-
-div{
-    padding-inline: 90px;
-    text-align: center;
+    padding-top: 90px; 
 }
 
 
 p{  text-align: center;
     font-family: "Manrope", sans-serif;
-    font-size: 27px;
-    padding-bottom: 20px;
+    font-size: 30px;
+    padding-bottom: 45px;
 }
 
 button1 {
     background-color: white;
     padding-top: 23px; padding-bottom: 23px;
-    padding-left: 180px; padding-right: 180px;
+    padding-left: 190px; padding-right: 190px;
     color: black;
     font-family: "Manrope", sans-serif;
     font-weight: 800;
     font-size: 20px;
     cursor: pointer;
-    margin-top: 29px;
     border: 2px solid black;
   }
 
-  button1:hover{
+button1:hover{
     background-color:#04AA6D;
     border-color: #04AA6D; /* Green */ 
     color: white;
@@ -123,11 +121,12 @@ button2 {
     background-color:gray;
     padding-top: 23px; padding-bottom: 23px;
     padding-left: 90px; padding-right: 90px;
+    margin-left: 90px;
     font-family: "Manrope", sans-serif;
     color: black;
     font-size: 20px;
     font-weight: 900;
-    cursor: pointer;      
+    cursor: pointer;
 }
 
 button2:hover {
@@ -135,20 +134,27 @@ button2:hover {
     color: white;
   }
 
-.scroll-container{
+button3{
+    background-color:black;
+    font-family: "Manrope", sans-serif;
+    color: black;
+    cursor: pointer;
+    margin-bottom: 180px;
+}
+
+.scroll-container{ /*Footer */
     background-color:black;
     color:white;
-    padding-top: 45px;
-    padding-left: 90px; padding-bottom: 90px;
+    height: 900px;
+    padding-left: 90px;
 }
 
 h3{
     font-family: "Manrope", sans-serif;
-    font-size: 105px;
+    font-size: 90px;
     padding-left: 90px;
-    margin-top: 45px;
-    margin-bottom: 60px;
     text-align: left;
+    padding-top: 90px;
 }
 
 form{
@@ -167,9 +173,9 @@ input{
     padding-left: 20px;
     padding-right: 360px;
     padding-top: 23px; padding-bottom: 23px;
-    margin-bottom: 90px;
     text-align: left;
     border-radius: 12px;
+    margin-bottom: 90px;
 }
 
 
@@ -179,13 +185,5 @@ h4{
     font-weight: 400px;
     font-size: 18px; 
     padding-left: 90px;
+    margin-top: 135px;
     }
-
-.contactbuttons{
-    display: flex;
-    flex-direction: row;
-    width: 160px; height: 160px;
-    cursor: pointer;
-    padding-left: 410px;
-    scroll-padding-bottom: 90px;
-     }
