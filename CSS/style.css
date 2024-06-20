@@ -1,15 +1,18 @@
 
 h1{
     font-family: "Manrope", sans-serif;
-    font-size: 38px;
+    font-size: 36px;
     font-weight: 900;
     padding-left: 90px;
+    padding-top: 4px;;
 }
 
 a{
     font-family: "Manrope", sans-serif;
+    font-size: 14px;
     text-decoration: none;
-    color: black;    
+    color: black; 
+    font-weight:700;  
 }
 
 .headerflexcontainer{
@@ -24,11 +27,26 @@ nav li {
     display: inline-block;
     margin-right: 25px;
     padding-inline: 15px;
-    padding-top: 38px;
-    font-size: 14px;
+    padding-top: 34px;
     font-family: "Manrope", sans-serif;
-    font-weight: 600;   
+    font-size: 14px;
+    text-decoration: none;
+    color: black; 
+    font-weight:700;   
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  #section1 {
+    background-color: white;
+  }
+  
+  #section2 {
+    height: 600px;
+    background-color: black;
+  }
 
 .sectionflexcontainer{ /* China*/
     display: flex;
@@ -40,7 +58,7 @@ nav li {
 
 
 img{ /* China */ 
-    padding-top: 55px; 
+    padding-top: 56px; 
     padding-left: 90px;
 }
 
@@ -53,18 +71,26 @@ img{ /* China */
 .myskillsflexcontainer{
     display: flex;
     flex-direction: row;
-    padding-top: 70px; 
+    padding-top: 70px;
+    text-align: center;
+    padding-left: 5px;
+
+
 }
 
 div img{ /* My Work, My Skills */ 
-    align-items: left;
-    padding-inline: 135px;
+    align-items: center;
+    padding-inline: 125px;
 }
 
 .myworkflexcontainer{
     display: flex;
     flex-direction: row;
     padding-top: 70px; 
+    padding-bottom: 25px;
+    align-items: center;
+    padding-left: 25px;
+
 }
 
 h2{ /* Hi, I'm Melissa */
@@ -77,18 +103,16 @@ h2{ /* Hi, I'm Melissa */
 
 h5{ 
     font-size: 26px;
-    padding-top: 30px;
     font-family: "Manrope", sans-serif;
-    text-align: left;
+    text-align: center;
     font-weight: 900;
-    padding-left: 90px;
 }
 
 h6{
     font-size: 20px;
     font-family: "Manrope", sans-serif;
     font-weight: 300;
-    padding-left: 90px;
+    text-align: center;
 }
 
 p{  text-align: center;
@@ -96,10 +120,10 @@ p{  text-align: center;
     font-size: 26px;
     font-weight: 900;
     padding-left: 90px;
-    padding-bottom: 56px;;
+    padding-bottom: 62px;
 }
 
-button1 {
+button1{
     background-color: white;
     padding-top: 20px; padding-bottom: 20px;
     padding-left: 180px; padding-right: 180px;
@@ -121,13 +145,14 @@ button1:hover{
 button2 {
     background-color:gray;
     padding-top: 18px; padding-bottom: 18px;
-    padding-left: 90px; padding-right: 90px;
-    margin-left: 90px; 
+    padding-left: 75px; padding-right: 75px;
     font-family: "Manrope", sans-serif;
     color: black;
     font-size: 20px;
     font-weight: 900;
     cursor: pointer;
+    margin-left: 90px;
+    margin-top: 90px;
 }
 
 button2:hover {
@@ -137,48 +162,67 @@ button2:hover {
 
 .scroll-container { /*Footer */
     background-color:black;
-    height: 675px;
-    padding-bottom: 45px;
+    padding-bottom: 110px;
 }
 
 h3{ /* Contact */
     font-family: "Manrope", sans-serif;
     font-size: 72px;
     color: white;
-    padding-left: 90px;
-    padding-top: 70px;
+    padding-left: 90px; padding-top: 90px;
     text-align: left;
 }
 
 form{
     font-family: "Manrope", sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     text-align: left;
     padding-left: 90px; 
-    padding-bottom: 25px;;
+    margin-top: -20px;
 }
 
-input {
+input[type=text1] {
     font-family: "Manrope", sans-serif;
-    color: black;
+    background-color: black;
+    border: none;
+    border-bottom: 2px solid white;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    color: white;
     font-size: 20px;
     font-weight: 600;
     cursor: pointer;
-    padding-left: 20px;
-    padding-right: 180px;
-    padding-top: 13px; padding-bottom: 13px;
+    padding-right: 90px;
+    padding-top: 10px; padding-bottom: 10px;
     text-align: left;
-    border-radius: 12px;
-    margin-block: 25px;
+    margin-bottom: 45px;
+}
+
+
+input[type=text2] {
+    font-family: "Manrope", sans-serif;
+    background-color: black;
+    border: none;
+    border-bottom: 2px solid white;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    padding-right: 90px;
+    padding-top: 10px; padding-bottom: 10px;
+    text-align: left;
+    margin-bottom: 75px;
 
 }
 
+
 h4{
-    text-align: left;
     font-family: "Manrope", sans-serif;
-    font-weight: 400px;
     color: white;
-    font-size: 18px; 
-    padding-left: 90px;
-    padding-top: 45px;
-    }
+    padding-top: 105px;
+    margin-left: 90px;
+}
