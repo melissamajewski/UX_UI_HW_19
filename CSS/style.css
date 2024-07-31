@@ -1,104 +1,53 @@
-
-h1{
-    font-family: "Manrope", sans-serif;
-    font-size: 36px;
-    font-weight: 900;
-    padding-left: 90px;
-    padding-top: 4px;;
+.headerflexcontainer{
+  flex-direction: row;
 }
 
 a{
     font-family: "Manrope", sans-serif;
-    font-size: 14px;
+    font-size: 24px;
     text-decoration: none;
     color: black; 
     font-weight:700;  
+    text-align: right;
 }
 
-.headerflexcontainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
-    margin-right: 90px;
-}
-
-nav li {
-    display: inline-block;
-    margin-right: 25px;
-    padding-inline: 15px;
-    padding-top: 34px;
-    font-family: "Manrope", sans-serif;
-    font-size: 14px;
-    text-decoration: none;
-    color: black; 
-    font-weight:700;   
+img{
+    padding-top: 25px;
+    padding-left: 75px;
 }
 
 html {
     scroll-behavior: smooth;
   }
   
-  #section1 {
+  #section1 { /* Navigation */
     background-color: white;
+    text-align: right;
   }
   
-  #section2 {
-    height: 600px;
+  .hiImMelissa {
+    text-align: center;
+    font-family: Freeman;
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+  #section2 { /* About Me */
+    height: 700px;
     background-color: black;
   }
 
-.sectionflexcontainer{ /* China*/
-    display: flex;
-    flex-direction:row;
-    text-align: center;
-    padding-bottom: 90px;
-    padding-top: 45px;
+  #section3 {
+    height: 600px;
+    background-color: black;
+  }
+  
+.featuredwork { 
+    background-color:black;
 }
 
-
-img{ /* China */ 
-    padding-top: 56px; 
-    padding-left: 90px;
-}
-
-
-.hiImMelissa {
-    text-align: center;
-    padding-left: 45px;
-}
-
-.myskillsflexcontainer{
-    display: flex;
-    flex-direction: row;
-    padding-top: 70px;
-    text-align: center;
-    padding-left: 5px;
-
-
-}
-
-div img{ /* My Work, My Skills */ 
-    align-items: center;
-    padding-inline: 125px;
-}
-
-.myworkflexcontainer{
-    display: flex;
-    flex-direction: row;
-    padding-top: 70px; 
-    padding-bottom: 25px;
-    align-items: center;
-    padding-left: 25px;
-
-}
-
-h2{ /* Hi, I'm Melissa */
-    font-size: 68px;
-    font-family: "Manrope", sans-serif;
-    font-weight: 900;
-    text-align: center;
-    padding-left: 90px; 
+.contact { /* Footer */
+    background-color:black;
 }
 
 h5{ 
@@ -117,7 +66,7 @@ h6{
 
 p{  text-align: center;
     font-family: "Manrope", sans-serif;
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 900;
     padding-left: 90px;
     padding-bottom: 62px;
@@ -156,18 +105,13 @@ button2 {
 }
 
 button2:hover {
-    background-color: #04AA6D; /* Green */
-    color: white;
+    background-color: #FFC258; /* Amber */
   }
 
-.scroll-container { /*Footer */
-    background-color:black;
-    padding-bottom: 110px;
-}
 
 h3{ /* Contact */
     font-family: "Manrope", sans-serif;
-    font-size: 72px;
+    font-size: 62px;
     color: white;
     padding-left: 90px; padding-top: 90px;
     text-align: left;
