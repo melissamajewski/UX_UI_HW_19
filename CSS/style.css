@@ -1,15 +1,30 @@
-.headerflexcontainer{
-  flex-direction: row;
-  float: left;
+
+.NavigationBar {
+  padding-top: 55px;
+  text-align: center;
 }
 
-a{
-    font-family: "Manrope", sans-serif;
-    font-size: 24px;
-    text-decoration: none;
-    color: black; 
-    font-weight:700;  
-    text-align: right;
+a {
+  margin-inline: 105px;
+  font-family: Manrope-regular;
+  font-size: 20px;
+  font-display: 20px;
+  color: grey;
+  font-weight: 900;
+}
+a hover {
+  color: #FFC258;
+  text-decoration: none;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.WelcomeHero {
+  display: inline-flex;
+
 }
 
 img{
@@ -17,21 +32,6 @@ img{
     padding-left: 75px;
 }
 
-html {
-    scroll-behavior: smooth;
-  }
-  
-  #section1 { /* Navigation */
-    background-color: white;
-    text-align: right;
-  }
-  
-  .hiImMelissa {
-    text-align: center;
-    font-family: Freeman;
-    padding-top: 180px;
-    padding-bottom: 180px;
-}
 
   #section2 { /* About Me */
     height: 700px;
@@ -42,8 +42,8 @@ html {
     height: 600px;
     background-color: black;
   }
-  
-.featuredwork { 
+
+.featuredprojects { 
     background-color:black;
 }
 
@@ -84,12 +84,6 @@ button1{
     cursor: pointer;
     border: 2px solid black;
     margin-left: 90px;
-  }
-
-button1:hover{
-    background-color:#04AA6D;
-    border-color: #04AA6D; /* Green */ 
-    color: white;
   }
 
 button2 {
