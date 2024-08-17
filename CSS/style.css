@@ -1,15 +1,16 @@
 
 .main {
-  padding-top: 45px;
+  padding-top: 50px;
   text-align: center;
+  margin-bottom: -60px;;
 }
 
 a {
-  margin-inline: 100px;
+  margin-inline: 85px;
   text-decoration: none;
   font-family: Manrope;
-  font-size: 21px;
-  color: #806C4B;
+  font-size: 26px;
+  color: #292929;
   font-weight: 500;
 }
 
@@ -20,42 +21,63 @@ a:link {
 a:hover {
   text-transform: lowercase;
   text-decoration: underline;
-  font-weight: bolder;
-  color: red;
-  
+  font-weight: 900;
+  color: #D7232F;
 }
 
 .MelissaHero {
   display: flex;
   flex-direction: row;
   height: 650px;
-  text-align: center;
-  padding-right: 115px;
+  align-items: center;
+  padding-bottom: 15px;
 }
 
-.MelissaHeroText{
- width: 900px
-
+.MelissaHeroText {
+padding-left: 25px;
+text-align: center;
 }
 
 img{
-  padding-left: 75px;
+  padding-left: 60px;
+  padding-top: 25px;
 }
 
 h1 {
-  font-family: Manrope-regular;
-  font-size: 68px;
-  padding-top: 45px; padding-left: 15px;
+  font-family: "Bevan";
+  font-size: 75px;
+  font-weight: 400;
+  color: #806C4B;
+  margin-top: -5px;
+  margin-bottom: 5px;
 }
+
+/*h1:hover {
+  color: #fa5763
+}*/
 
 p{  
-  text-align: center;
   font-family: "Manrope", sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-  padding-bottom: 62px;
+  line-height: 38px;
+  text-align: center;
+  color: #292929;
+  font-size: 31px;
+  font-weight: 500;
+  padding-left: 5px;;
 }
 
+svg{
+color: #806C4B;
+}
+
+svg:hover {
+  color: #D7232F;
+}
+
+button {
+border: none;
+background-color: white;
+}
 
 html {
   scroll-behavior: smooth;
@@ -66,37 +88,39 @@ height: 65px;
 background-color: white;
 }
 
+h2 {
+  font-family: Manrope-regular;
+  text-transform: lowercase;
+  text-decoration: underline;
+  font-weight: 900;
+  font-size: 28px;
+  color: #D7232F;
+  margin-inline: 85px;
+}
+
 #section2 { /* about me */
-height: 675px;
-background-color: #FFC258;
-  }
+  height: 690px;
+  background-color: #f5f5f5;
+  padding-bottom: 50px;
+  text-align: left;
+ }
 
 #section3 {
-height: 675px;
-background-color: black;
+  height: 690px;
+  background-color:#D9CEBB;
+
+  padding-bottom: 50px;
   }
 
 #section4 { 
-    background-color:black;
+  height: 690px;
+  background-color: lightgray;
 }
 
 #section5 { /* Footer */
-    background-color:black;
+  height: 690px;
+  background-color: #292929; 
 }
-
-
-button1{
-    background-color: white;
-    padding-top: 20px; padding-bottom: 20px;
-    padding-left: 180px; padding-right: 180px;
-    color: black;
-    font-family: "Manrope", sans-serif;
-    font-weight: 800;
-    font-size: 20px;
-    cursor: pointer;
-    border: 2px solid black;
-    margin-left: 90px;
-  }
 
 button2 {
     background-color:gray;
@@ -114,13 +138,6 @@ button2 {
 button2:hover {
     background-color: #FFC258; /* Amber */
   }
-
-h3{ /*-----------*/
-    font-family: "Manrope", sans-serif;
-    font-size: 12px;
-    color: #806C4B;
-    padding-top: 5px;
-}
 
 form{
     font-family: "Manrope", sans-serif;
