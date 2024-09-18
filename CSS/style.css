@@ -1,13 +1,20 @@
 
 nav  {
   padding-top: 25px;
-  height: 65px;  
+  height: 65px; width: 1400px;
+
 }
 
 ul{ 
   display: flex;
   text-align: center;
+  height: 65px; width: 1400px;
 }
+
+#section1 {
+  height: 65px; width: 1400px;
+  background-color: white;
+  }
 
 li {
   display: flex;  
@@ -28,50 +35,41 @@ a:hover{
   color: #433426;
   text-decoration-color: #806C4B;
   text-decoration-thickness: 3.575px;
-  text-align: center;
   font-size: 31.5px;
 }
 
 .MelissaHero { /* hero text */
   display: flex;
   flex-direction: row;
-  align-content: center;
+  height: 565px; width: 1400px;
+  text-align: center;
   padding-top: 55px;
-  height: 690px;
 }
 
 .MelissaHeroText {
 text-align: center;
+padding-left: 25px;
 }
 
 img{
-  padding-left: 95px;
+margin-left: 105px;
 }
 
 h1 {
   font-family: "Bevan";
   font-weight: 500;
   color: #806C4B;
-  font-size: 78px;
-  margin-top: 80px;
+  font-size: 76px;
+  margin-top: 90px;
 }
 
 /*h1:hover {
   color: #fa5763
 }*/
 
-h3 {  
-  font-family: "Manrope";
-  color: #433426;
-  font-size: 31.5px;
-  line-height: 40px;
-  font-weight: 500;
-  margin-top: -70px;
-}
-
 svg{
   fill: #806C4B;
-  margin-top: -10px;
+  margin-top: 20px;
   }
   
 svg:hover {
@@ -82,38 +80,34 @@ html {
   scroll-behavior: smooth;
 }
 
-#section1 {
-height: 65px;
-background-color: white;
-}
-
 h2 { 
   font-family: "Manrope";
-  color: #292929;
+  color: #433426;
   font-size: 31.5px;
   font-weight: 500;
   text-decoration: underline;
-  text-decoration-color: #292929;
+  text-decoration-color: #433426;
   text-decoration-thickness: 3.575px;
-  margin-inline: 130px;
+  padding-top: 55px;
+  padding-left: 140px;
+
 }
 
 #section2 { /* about me */
-  height: 690px; 
-  background-color: white;
+  height: 665px; width: 1400px;
+  background-color: #806C4B;
   text-align: left;
-  padding-top: 45px;
  }
 
 p { /* letter */
   font-family: "Manrope-regular";
-  font-size: 20px;
+  font-size: 21.5px;
   color: #433426;
   font-weight: 700;
   text-align: left;
-  margin-top: -10px;
-  line-height: 25px;
-  margin-left: 130px;
+  line-height: 28px;
+  padding-left: 140px;
+
 }
 
 span{
@@ -131,40 +125,67 @@ h4{ /* Signature */
   font-size: 54px;
   font-weight: 500;
   margin-top: -75px;
-  margin-left: 130px;
   color: #433426;
+  padding-left: 145px;
+
  }
 
-.arrowdown {
-margin-top: -160px;
-padding-left: 945px;;
+.aboutmephoto{
+float: right;
+margin-top: -640px;
+padding-right: 95px;
 }
 
 #section3{
-  height: 700px;
-  }
+  height: 665px; width: 1400px;
+  background-color: lightcyan;
+  text-align: left;
+  margin-top: -9px;
+  padding-bottom: 5px;
 
+}
 
-.flexcontainer {
+.flexcontainer { /* Featured Work */
   display: flex;
   flex-direction: row;
-  padding-top: 400px;
-  margin-inline: 130px;
+  height: 665px; width: 1400px;
+  padding-left: 140px;
+  padding-top: 250px;
+}
+
+h3{
+  font-family: "Manrope";
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 28px;
+  color: #433426;
+  padding-bottom: 10px;
 }
 
 button1 {
   text-align: left;
+  font-family: "Manrope";
   font-weight: 900;
   font-size: 15px;
   background-color: white; 
+  border-radius: 20px;
   padding-left: 150px; padding-right: 150px;
-  padding-top: 5px; padding-bottom: 5px;
+  padding-top: 8px; padding-bottom: 8px;
   border: 1px, solid, #433426;
+  color: #433426;
 }
 
-.Card2{
-margin-inline: 20px;
+
+button1:hover{
+background-color: #FFC258;
+border: 1px, solid  #FFC258;
 }
+
+
+.Card2{
+margin-inline: 24px;
+}
+
 
 h5{
   font-family: "Bevan";
@@ -174,17 +195,22 @@ h5{
   margin-top: -15px;
 }
 
-#section4 { /*Tools & Skills*/
-  padding-top: 45px;
-  height: 700px; 
+#section4 { /*Weblog*/
+  height: 665px; width: 1400px;
+  background-color: #FFC258;
+  text-align: left;
+  margin-top: -26px;
 }
 
 #section5 { /* Contact */
-  padding-top: 75px;
-  padding-left: 120px;
-  height: 690px;
+  height: 665px; width: 1400px;
+  padding-top: 45px;
   background-color: #292929;
   text-align: left;
+  margin-top: 0px;
+  padding-left: 140px;
+
+  
 }
 
 form{
