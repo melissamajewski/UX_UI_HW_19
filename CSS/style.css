@@ -1,156 +1,201 @@
+body{
+  width: 1400px;
+}
 
 nav  {
-  padding-top: 25px;
-  height: 65px; width: 1400px;
+  width: 1400px;
+}
 
+html {
+  width: 1400px;
+  scroll-behavior: smooth;
 }
 
 ul{ 
-  display: flex;
-  text-align: center;
-  height: 65px; width: 1400px;
+display: inline-flex;
 }
 
 #section1 {
-  height: 65px; width: 1400px;
   background-color: white;
+  width: 1400px; height: 70px;
+  align-content: center;
+
   }
 
 li {
   display: flex;  
   font-family: "Manrope";
-  margin-inline: 98px;
-  font-size: 31.5px;
+  padding-left: 5px;
+  margin-inline: 94px;
+  font-size: 28.5px;
   font-weight: 500;
+  color: #433426;
 }
 
 a {
   color: #433426;
   text-decoration-thickness: 3.575px;
+  align-content: center;
 }
 
-a:hover{
+a:hover {
   font-family: "Manrope";
   font-weight: 500;
   color: #433426;
   text-decoration-color: #806C4B;
   text-decoration-thickness: 3.575px;
-  font-size: 31.5px;
+  font-size: 28.5px;
 }
 
-.MelissaHero { /* hero text */
-  display: flex;
-  flex-direction: row;
-  height: 565px; width: 1400px;
+#MelissaHero { 
+  display: inline-flex;
+  height: 600px; width: 1400px;
+  background-color: #806C4B;
+ }
+
+ .HeroPhoto1{
+  height: 600px; width: 600px;
+  align-content: center;
+ }
+
+.aboutmephoto1 {
+  align-self: center;
+  margin-left: 70px;
+  width: 500px; height: 500px;
+}
+
+#MelissaHeroText{
+  width: 800px; height: 600px;
+  display: inline-flex;
+  align-items: center;  
+  flex-direction: column;
+}
+
+.HeroText1{
+  width: 800px; height: 300px;
   text-align: center;
-  padding-top: 55px;
+  margin-top: 30px;
 }
 
-.MelissaHeroText {
-text-align: center;
-padding-left: 25px;
+.HeroText2{
+  width: 800px; height: 300px;
+  text-align: center;
 }
 
-img{
-margin-left: 105px;
+.h2style{
+  margin-left: -100px;
+  margin-top: -100px;
 }
 
 h1 {
   font-family: "Bevan";
   font-weight: 500;
-  color: #806C4B;
-  font-size: 76px;
-  margin-top: 90px;
+  color: white;
+  text-align: center;
+  font-size: 74px;
+  margin-top: 130px;
+  margin-left: -65px;
 }
 
-/*h1:hover {
-  color: #fa5763
-}*/
-
-svg{
-  fill: #806C4B;
-  margin-top: 20px;
-  }
-  
-svg:hover {
-  color: #D7232F;
-  }
-
-html {
-  scroll-behavior: smooth;
+.button{
+  height: 100px; width: 800px;
+  align-content: center;
+  text-align: center;
 }
+
+button1 {
+  height: 100px; width: 800px;
+  font-family: "Manrope";
+  font-variant: small-caps;
+  font-size: 25px;
+  background-color: #FFC258;
+  padding-top: 10px; padding-bottom: 10px;
+  padding-left: 100px; padding-right: 100px;
+  border-radius: 20px;
+  border: 2px, solid, #806C4B; 
+ }
+
+ svg{
+ color: #D7232F;
+ }
+
+#section2 { /* About Me */
+  display: inline-flex;
+  height: 720px; width: 1400px;
+  background-color: #806C4B;
+ }
 
 h2 { 
   font-family: "Manrope";
   color: #433426;
-  font-size: 31.5px;
+  font-size: 28.5px;
   font-weight: 500;
   text-decoration: underline;
   text-decoration-color: #433426;
   text-decoration-thickness: 3.575px;
-  padding-top: 55px;
-  padding-left: 140px;
-
+  margin-top: 55px;
+  margin-left: 125px;
+  height: 50px; width: 675px;
 }
 
-#section2 { /* about me */
-  height: 665px; width: 1400px;
-  background-color: #806C4B;
-  text-align: left;
- }
 
-p { /* letter */
+p { 
+  width: 675px; height: 720px;
   font-family: "Manrope-regular";
-  font-size: 21.5px;
+  font-size: 22px;
   color: #433426;
   font-weight: 700;
   text-align: left;
   line-height: 28px;
-  padding-left: 140px;
-
+  margin-left: 125px;
 }
 
-span{
-  text-decoration: underline;
-}
-
-span:hover{
-  color: #D7232F;
-  text-transform: bold;
-  cursor: pointer;
-}
- 
-h4{ /* Signature */
-  font-family: "Meow Script", sans-serif;
-  font-size: 54px;
-  font-weight: 500;
-  margin-top: -75px;
-  color: #433426;
-  padding-left: 145px;
-
+.HeroPhoto2{
+  height: 720px; width: 600px;
+  align-content: center;
  }
 
-.aboutmephoto{
-float: right;
-margin-top: -640px;
-padding-right: 95px;
-}
+.aboutmephoto2 {
+  display: flex;
+  flex-direction: row;
+  width: 500px; height: 500px;
+  margin-right: 70px;
+  }
 
-#section3{
-  height: 665px; width: 1400px;
-  background-color: lightcyan;
-  text-align: left;
-  margin-top: -9px;
-  padding-bottom: 5px;
+h4{ /* Signature */
+  font-family: "Meow Script", sans-serif;
+  font-size: 56px;
+  font-weight: 500;
+  margin-top: -315px;
+  color: #433426;
+  margin-left: 120px;
+ }
 
+
+#section3{ /* Featured Work */
+  height: 720px; width: 1400px;
+  background-color: #D7232F;
 }
 
 .flexcontainer { /* Featured Work */
-  display: flex;
-  flex-direction: row;
-  height: 665px; width: 1400px;
-  padding-left: 140px;
-  padding-top: 250px;
+  display:inline-flex;
+  text-align: center;
+  align-content: center;
+  background-color: #FFC258;
+
+}
+
+.Card1{
+padding-left: 125px;
+}
+
+.Card2{
+  padding-left: 75px;
+}
+
+.Card3{
+  padding-left: 75px;
+
 }
 
 h3{
@@ -159,84 +204,59 @@ h3{
   font-weight: 900;
   line-height: 28px;
   color: #433426;
-  padding-bottom: 10px;
 }
 
-button1 {
+button2 {
   text-align: left;
   font-family: "Manrope";
   font-weight: 900;
   font-size: 15px;
   background-color: white; 
-  border-radius: 20px;
-  padding-left: 150px; padding-right: 150px;
+  border-radius: 9px;
+  padding-left: 130px; padding-right: 130px;
   padding-top: 8px; padding-bottom: 8px;
-  border: 1px, solid, #433426;
-  color: #433426;
+  border: 2px, solid, #806C4B; 
 }
 
-
-button1:hover{
+button2:hover{
 background-color: #FFC258;
-border: 1px, solid  #FFC258;
-}
-
-
-.Card2{
-margin-inline: 24px;
-}
-
-
-h5{
-  font-family: "Bevan";
-  font-weight: 100;
-  color: White;
-  font-size: 82px;
-  margin-top: -15px;
+border: 1.25px, solid  #FFC258;
 }
 
 #section4 { /*Weblog*/
-  height: 665px; width: 1400px;
-  background-color: #FFC258;
-  text-align: left;
-  margin-top: -26px;
+  height: 675px; width: 1400px;
+  background-color: #806C4B;
 }
 
 #section5 { /* Contact */
-  height: 665px; width: 1400px;
-  padding-top: 45px;
+  height: 675px; width: 1400px;
   background-color: #292929;
-  text-align: left;
-  margin-top: 0px;
-  padding-left: 140px;
-
-  
 }
 
 form{
-    font-family: "Manrope", sans-serif;
-    font-weight: 600;
-    text-align: left;
-    padding-left: 90px; 
-    margin-top: -20px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  text-align: left;
+  padding-left: 90px; 
+  margin-top: -20px;
 }
 
 input[type=text1] {
-    font-family: "Manrope", sans-serif;
-    background-color: black;
-    border: none;
-    border-bottom: 2px solid white;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: none;
-    color:white;
-    font-size: 20px;
-    font-weight: 600;
-    cursor: pointer;
-    padding-right: 90px;
-    padding-top: 10px; padding-bottom: 10px;
-    text-align: left;
-    margin-bottom: 45px;
+  font-family: "Manrope", sans-serif;
+  background-color: black;
+  border: none;
+  border-bottom: 2px solid white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  color:white;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  padding-right: 90px;
+  padding-top: 10px; padding-bottom: 10px;
+  text-align: left;
+  margin-bottom: 45px;
 }
 
 
